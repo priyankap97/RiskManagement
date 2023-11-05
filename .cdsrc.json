@@ -1,1 +1,28 @@
-{}
+
+{
+    "[development]": {
+      "auth": {
+       "passport": {
+        "strategy": "mock",
+        "users": {
+          "priyanka.punde87@gmail.com": {
+           "password": "Priyanka@97",
+           "ID": "riskviewer",
+           "userAttributes": {
+             "email": "priyanka.punde87@gmail.com"
+           },
+           "roles": ["RiskViewer"]
+         },
+          "": {
+           "password": "initial",
+           "ID": "riskmanager",
+           "userAttributes": {
+             "email": "risk.manager@tester.sap.com"
+           },
+           "roles": ["RiskManager"]
+         }
+        }
+       }
+      }
+     }
+    }

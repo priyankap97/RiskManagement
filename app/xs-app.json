@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/app/launchpad.html",
+  "routes": [
+    {
+      "source": "^/app/(.*)$",
+      "localDir": "./",
+      "target": "$1"
+    },
+    {
+      "source": "^/service/(.*)$",
+      "destination": "srv-api"
+    }
+  ]
+}
